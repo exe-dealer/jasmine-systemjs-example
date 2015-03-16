@@ -16,8 +16,11 @@
   <script src="https://rawgit.com/ModuleLoader/es6-module-loader/master/dist/es6-module-loader.src.js"></script>
   <script src="https://rawgit.com/systemjs/systemjs/master/dist/system.src.js"></script>
   <script>
+  System.config({
+    baseURL: '../'
+  });
   Promise.all([
-    System.load("./greetingSpec"),
+    System.load("spec/greetingSpec"),
   ]).then(function () {
     runSpecs();
   });
