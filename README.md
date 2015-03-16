@@ -2,7 +2,7 @@
 
 indirectional parent require not works when spec-runner in spec dir (
 
-http://exe-dealer.github.io/jasmine-systemjs-example/spec/spec-runner.html
+http://exe-dealer.github.io/jasmine-systemjs-example/spec/spec-runner.html (see console output)
 
 
 but spec-runner in root dir works fine
